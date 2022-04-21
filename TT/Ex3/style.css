@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.navbar{
+    width:65%;
+    margin:auto;
+    padding: 35px 0;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+
+
+
+.navbar ul li{
+    list-style:none;
+    display: inline-table;
+    margin: 0 10px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:black;
+    font-size: 14px
+}
+
+.profile-data{
+    display: block;
+    text-align:right;
+    align-items: right;
+    align-content: right;
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
+.profile-data ul li  a{
+    color: rgb(88, 168, 195);
+}
+.banner{
+    max-width: 100%;
+    height: 300px;
+    max-height: 300px;
+    background-image: url(banner.jpg);
+    background-size: cover;
+    background-position: center;
+
+
+    margin-bottom: 40px;
+    
+}
+.caption{
+    
+    width: 700px;
+    margin:auto;
+    padding: 50px 0;
+    display: block;
+    text-align: left;
+    color: white;
+}
+
+.wrap{
+    margin: 0px auto;
+    max-width: 950px;
+}
+.viral-atc{
+    border-radius: 10px;
+    background-color: lightgray;
+    display: flex;
+    width: 130px;
+    margin-bottom: 30px;
+    color: gray;
+    
+}
